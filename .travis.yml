@@ -1,0 +1,10 @@
+sudo: required
+language: generic
+services:
+  - docker
+
+before_install:
+  - docker build -t sharewithamar/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true sharewithamar/docker-react npm run test
