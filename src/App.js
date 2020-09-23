@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         <p>
           Edit <code>src/App.js</code> and save to reload. so far so good Amar
-          pls work start the game 14 14 14 Doji IPL, CSK
+          pls work start the game 14 14 14 Doji IPL, CSK Feature branch
         </p>
         <a
           className='App-link'
